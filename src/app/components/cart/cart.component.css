@@ -1,0 +1,27 @@
+.info-cart {
+  width: 80%;
+}
+table {
+  width: 100%;
+  border-bottom: 1px solid black;
+  text-align: center;
+}
+p {
+  font-size: 2rem;
+  text-align: center;
+}
+.finishbutton,
+.clearbutton {
+  width: 10em;
+  text-align: center;
+  color: white;
+  background-color: black;
+  font-weight: bold;
+}
+.finishbutton:hover,
+.clearbutton:hover {
+  background-color: gray;
+}
+.clearbutton {
+  margin-left: 3em;
+}
