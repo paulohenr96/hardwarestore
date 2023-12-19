@@ -1,0 +1,193 @@
+{
+  "products": [
+    {
+      "img": "assets/img/motherboard.jpg",
+      "name": "MotherBoard 1",
+      "price": 999.5,
+      "id": 19,
+      "category": "motherboard"
+    },
+    {
+      "img": "assets/img/motherboard2.jpg",
+      "name": "MotherBoard 2",
+      "price": 700.5,
+      "id": 20,
+      "category": "motherboard"
+    },
+    {
+      "img": "assets/img/motherboard3.jpg",
+      "name": "MotherBoard 3",
+      "price": 455.5,
+      "id": 21,
+      "category": "motherboard"
+    },
+    {
+      "img": "assets/img/motherboard2.jpg",
+      "name": "MotherBoard 4",
+      "price": 200.5,
+      "id": 22,
+      "category": "motherboard"
+    },
+    {
+      "img": "assets/img/motherboard3.jpg",
+      "name": "MotherBoard 5",
+      "price": 343.5,
+      "id": 23,
+      "category": "motherboard"
+    },
+    {
+      "img": "assets/img/motherboard2.jpg",
+      "name": "MotherBoard 6",
+      "price": 599.5,
+      "id": 24,
+      "category": "motherboard"
+    },
+    {
+      "img": "assets/img/motherboard.jpg",
+      "name": "MotherBoard 7",
+      "price": 400.5,
+      "id": 25,
+      "category": "motherboard"
+    },
+    {
+      "img": "assets/img/motherboard3.jpg",
+      "name": "MotherBoard 8",
+      "price": 600.5,
+      "id": 26,
+      "category": "motherboard"
+    },
+    {
+      "img": "assets/img/motherboard.jpg",
+      "name": "MotherBoard9",
+      "price": 500.5,
+      "id": 27,
+      "category": "motherboard"
+    },
+    {
+      "img": "assets/img/ram.jpg",
+      "name": "Memory 1",
+      "price": 999.5,
+      "id": 10,
+      "category": "ram"
+    },
+    {
+      "img": "assets/img/ram2.jpg",
+      "name": "Memory 2",
+      "price": 999.5,
+      "id": 11,
+      "category": "ram"
+    },
+    {
+      "img": "assets/img/ram3.jpg",
+      "name": "Memory 3",
+      "price": 999.5,
+      "id": 12,
+      "category": "ram"
+    },
+    {
+      "img": "assets/img/ram2.jpg",
+      "name": "Memory 4",
+      "price": 999.5,
+      "id": 13,
+      "category": "ram"
+    },
+    {
+      "img": "assets/img/ram3.jpg",
+      "name": "Memory 5",
+      "price": 999.5,
+      "id": 14,
+      "category": "ram"
+    },
+    {
+      "img": "assets/img/ram2.jpg",
+      "name": "Memory 6",
+      "price": 999.5,
+      "id": 15,
+      "category": "ram"
+    },
+    {
+      "img": "assets/img/ram.jpg",
+      "name": "Memory 7",
+      "price": 999.5,
+      "id": 16,
+      "category": "ram"
+    },
+    {
+      "img": "assets/img/ram3.jpg",
+      "name": "Memory 8",
+      "price": 999.5,
+      "id": 17,
+      "category": "ram"
+    },
+    {
+      "img": "assets/img/ram.jpg",
+      "name": "Memory 9",
+      "price": 999.5,
+      "id": 18,
+      "category": "ram"
+    },
+    {
+      "img": "assets/img/gpu.jpg",
+      "name": "Graphic Card 1",
+      "price": 999.5,
+      "id": 1,
+      "category": "gpu"
+    },
+    {
+      "img": "assets/img/gpu2.jpg",
+      "name": "Graphic Card 2",
+      "price": 999.5,
+      "id": 2,
+      "category": "gpu"
+    },
+    {
+      "img": "assets/img/gpu3.jpg",
+      "name": "Graphic Card 3",
+      "price": 999.5,
+      "id": 3,
+      "category": "gpu"
+    },
+    {
+      "img": "assets/img/gpu2.jpg",
+      "name": "Graphic Card 4",
+      "price": 999.5,
+      "id": 4,
+      "category": "gpu"
+    },
+    {
+      "img": "assets/img/gpu3.jpg",
+      "name": "Graphic Card 5",
+      "price": 999.5,
+      "id": 5,
+      "category": "gpu"
+    },
+    {
+      "img": "assets/img/gpu2.jpg",
+      "name": "Graphic Card 6",
+      "price": 999.5,
+      "id": 6,
+      "category": "gpu"
+    },
+    {
+      "img": "assets/img/gpu.jpg",
+      "name": "Graphic Card 7",
+      "price": 999.5,
+      "id": 7,
+      "category": "gpu"
+    },
+    {
+      "img": "assets/img/gpu3.jpg",
+      "name": "Graphic Card 8",
+      "price": 999.5,
+      "id": 8,
+      "category": "gpu"
+    },
+    {
+      "img": "assets/img/gpu.jpg",
+      "name": "Graphic Card 9",
+      "price": 999.5,
+      "id": 9,
+      "category": "gpu"
+    }
+  ]
+}
