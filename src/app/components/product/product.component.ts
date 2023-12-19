@@ -16,6 +16,8 @@ export class ProductComponent {
   constructor(private service: ProductServiceService) {}
 
   purchase(p: Product) {
+    if (this.quantity <= 0) return;
+
     var myitem = new MyItem();
     myitem.id = p.id;
     myitem.name = p.name;

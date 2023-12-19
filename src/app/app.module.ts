@@ -8,6 +8,7 @@ import { CartComponent } from './components/cart/cart.component';
 import { ProductComponent } from './components/product/product.component';
 import { FormsModule } from '@angular/forms';
 import { ProductpageComponent } from './pages/productpage/productpage.component';
+import { HomeComponent } from './pages/home/home.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { ProductpageComponent } from './pages/productpage/productpage.component'
     CartComponent,
     ProductComponent,
     ProductpageComponent,
+    HomeComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],

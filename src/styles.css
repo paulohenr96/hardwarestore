@@ -5,18 +5,6 @@ h1 {
   text-align: center;
 }
 
-.products {
-  display: flex;
-  gap: 2em;
-  flex-flow: row;
-  flex-wrap: wrap;
-  flex-direction: row;
-  border: 2px solid black;
-  padding-top: 2em;
-  padding-bottom: 2em;
-  padding-left: 2em;
-}
-
 nav {
   display: flex;
   flex-direction: column;
