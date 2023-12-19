@@ -1,6 +1,7 @@
 # HardwareShop
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.0.
+The link for the project is [Here](https://www.paulohenriquejavaweb.com.br/hardwarestore)
 
 ## Development server
 
