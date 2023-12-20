@@ -1,0 +1,70 @@
+<div class="container_details">
+  <div class="container_details_content">
+    <img [src]="product.img" />
+    <div class="right">
+      <h3>{{ product.name }} - ${{ product.price }}</h3>
+
+      <h3></h3>
+
+      <input type="number" [(ngModel)]="quantity" />
+      <button (click)="purchase()" [disabled]="quantity <= 0">
+        ADD TO CARD
+      </button>
+    </div>
+  </div>
+  <div class="container_info">
+    <p>
+      <span
+        >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem
+        nostrum, ut nulla assumenda unde blanditiis facere minima, praesentium
+        animi sunt totam fugiat nihil vitae natus rerum non facilis obcaecati
+        corrupti.</span
+      ><span
+        >Repellat minima adipisci temporibus beatae id incidunt neque ratione
+        eum, aliquid dolorum nam distinctio quis aut animi sed autem iure ex
+        eligendi, dicta rerum veniam fuga doloribus quo voluptatibus.
+        Deleniti?</span
+      ><span
+        >Impedit error consectetur explicabo? Repellendus delectus in iure nemo
+        sapiente atque et quasi quibusdam voluptate possimus dolorem similique
+        architecto, suscipit ratione porro, quisquam obcaecati reprehenderit
+        inventore a fugiat sit labore!</span
+      ><span
+        >Totam commodi laudantium dolorum natus dignissimos amet sunt doloribus
+        quasi? Ipsa distinctio doloribus, nisi facilis, harum consequuntur
+        sapiente, sed dolorum perspiciatis optio ex? Libero ipsam fugiat
+        laudantium saepe nemo facere.</span
+      ><span
+        >Nisi iusto perspiciatis delectus rem reiciendis repellat excepturi
+        consectetur laudantium nihil atque soluta velit, illum minima
+        necessitatibus rerum eum officiis quos ex fugiat. Eaque sequi magnam
+        dolor molestiae temporibus nemo.</span
+      ><span
+        >Aliquam, voluptatem doloribus odit perferendis eius sit quis in illo,
+        nemo, voluptas necessitatibus sequi. Amet, dolorem rerum? Quaerat quo
+        earum alias facilis, itaque odit voluptates! Voluptate, voluptatum
+        repudiandae. Fuga, ducimus?</span
+      ><span
+        >Eaque non, explicabo repellat fuga eius quo est deserunt adipisci
+        itaque saepe, asperiores quae voluptatum nihil quod dolorum ullam
+        consequuntur laudantium ipsa reprehenderit quasi provident inventore
+        beatae. Animi, magnam quo!</span
+      ><span
+        >Neque doloremque ad odit adipisci quidem cum, saepe suscipit esse
+        placeat? Sint eos, molestiae reprehenderit aliquam saepe laudantium est
+        eveniet maxime beatae vel dolorem! Corrupti tenetur ut dolor excepturi
+        aut?</span
+      ><span
+        >Quae modi, neque veniam, doloribus, a praesentium voluptas tenetur
+        reiciendis quidem autem perspiciatis obcaecati sint. Quos eos quis
+        perspiciatis iste harum cum, quam, deserunt officiis ex vitae voluptas
+        doloremque ipsam?</span
+      ><span
+        >Voluptatem voluptates, voluptate cupiditate reprehenderit ipsa
+        perspiciatis sapiente voluptatibus provident illum. Repellendus mollitia
+        amet ex vel, beatae, tenetur voluptates totam veniam cum quas quis harum
+        necessitatibus. Labore voluptatibus aut inventore?</span
+      >
+    </p>
+  </div>
+</div>

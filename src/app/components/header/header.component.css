@@ -1,0 +1,24 @@
+.container_header {
+  background-color: BLACK;
+  color: lightgray;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  position: fixed;
+  width: 100%;
+}
+
+.container_header > span {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+}
+
+.container_header > span:hover {
+  background-color: gray;
+  cursor: pointer;
+}

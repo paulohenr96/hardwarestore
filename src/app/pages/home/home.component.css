@@ -27,6 +27,9 @@
 }
 .gpu > img {
   width: 300px;
+  height: 300px;
+
+  flex: 2;
 }
 .description > p {
   text-align: justify;

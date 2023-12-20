@@ -1,6 +1,5 @@
 .products {
   display: flex;
-  padding-left: 40px;
   gap: 2em;
   flex-wrap: wrap;
   flex-direction: row;
@@ -8,4 +7,15 @@
   padding-bottom: 2em;
   align-content: center;
   justify-content: flex-start;
+  width: auto;
+  padding-left: 100px;
+}
+.container {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 20px;
+  padding-right: 20px;
 }

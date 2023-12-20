@@ -13,17 +13,15 @@ export class ProductComponent {
   product: Product = new Product();
   total: string = '';
   quantity: number = 0;
+  show: boolean = false;
   constructor(private service: ProductServiceService) {}
 
   purchase(p: Product) {
-    if (this.quantity <= 0) return;
-
-    var myitem = new MyItem();
-    myitem.id = p.id;
-    myitem.name = p.name;
-    myitem.quantity = this.quantity;
-    myitem.price = p.price;
-    this.service.addCart(myitem);
+    this.service.addCart(p, 1);
     this.quantity = 0;
+    this.show = true;
+    setTimeout(() => {
+      this.show = false;
+    }, 1000);
   }
 }

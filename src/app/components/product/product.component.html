@@ -1,18 +1,11 @@
 <div class="product">
-  <img [src]="product.img" />
+  <img [src]="product.img" [routerLink]="['/productdetails/' + product.id]" />
   <div class="infoproduct">
     <p class="nameproduct">{{ product.name }}</p>
     <p class="priceproduct">$ {{ product.price }}</p>
     <div class="quantity">
-      <input
-        type="number"
-        class="form-control"
-        id="quantity_{{ product.id }}"
-        value="1"
-        [(ngModel)]="quantity"
-      />
-
-      <button class="btn btn-success" (click)="purchase(product)">+</button>
+      <button *ngIf="!show" (click)="purchase(product)">+</button>
+      <div *ngIf="show" class="sucesso">DONE !</div>
     </div>
   </div>
 </div>

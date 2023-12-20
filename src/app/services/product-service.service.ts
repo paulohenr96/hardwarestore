@@ -15,7 +15,13 @@ export class ProductServiceService {
     this.total += price;
   }
 
-  addCart(myitem: MyItem) {
+  addCart(p: Product, quantity: number) {
+    var myitem = new MyItem();
+    myitem.id = p.id;
+    myitem.name = p.name;
+    myitem.quantity = quantity;
+    myitem.price = p.price;
+
     var foundItem = this.myitems.find((item) => item.id === myitem.id);
 
     this.sum(myitem.price!! * myitem.quantity);

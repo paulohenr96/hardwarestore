@@ -9,6 +9,9 @@ import { ProductComponent } from './components/product/product.component';
 import { FormsModule } from '@angular/forms';
 import { ProductpageComponent } from './pages/productpage/productpage.component';
 import { HomeComponent } from './pages/home/home.component';
+import { DetailsComponent } from './pages/details/details.component';
+import { HeaderComponent } from './components/header/header.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +20,9 @@ import { HomeComponent } from './pages/home/home.component';
     ProductComponent,
     ProductpageComponent,
     HomeComponent,
+    DetailsComponent,
+    HeaderComponent,
+    FooterComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],
