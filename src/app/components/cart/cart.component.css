@@ -1,9 +1,19 @@
 .container {
   padding-top: 100px;
-  height: calc(100vh - 80px);
+  min-height: calc(100vh - 80px);
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
 }
+
 .info-cart {
-  width: 80%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 table {
   width: 100%;
