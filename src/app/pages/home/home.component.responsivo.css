@@ -1,0 +1,10 @@
+@media only screen and (max-width: 800px) {
+  .gpu > img {
+    width: 150px;
+    height: 100px;
+  }
+  .gpu {
+    border-bottom: 2px solid gray;
+    flex-wrap: wrap;
+  }
+}
